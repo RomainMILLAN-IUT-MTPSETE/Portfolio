@@ -218,4 +218,37 @@ a {
   padding-bottom: 20px;
 }
 
+.formations--container {
+  min-height: 90vh;
+}
+.formations--container .formations-content {
+  width: 90%;
+  margin: auto;
+}
+.formations--container .formations-content .formations {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  row-gap: 20px;
+  grid-auto-rows: minmax(40px, auto);
+  margin-top: 20px;
+}
+.formations--container .formations-content .formations .formation {
+  color: #FFFFFF;
+}
+.formations--container .formations-content .formations .formation p {
+  margin: 0;
+  font-size: 15px;
+}
+.formations--container .formations-content .formations .formation h2 {
+  margin: 0;
+  font-size: 20px;
+}
+.formations--container .formations-content .formations .formation h2 .italic {
+  font-weight: lighter;
+}
+.formations--container .formations-content .formations .formation h4 {
+  margin: 0 0 0 15px;
+  font-weight: lighter;
+}
+
 /*# sourceMappingURL=app.css.map */
