@@ -5,6 +5,10 @@ $white: #FFFFFF;
 $white-back: #E8E8EA;
 
 @font-face{
+    font-family: "ICabin";
+    src: url("../assets/Fonts/Cabin/Cabin-Italic-VariableFont.ttf");
+}
+@font-face{
     font-family: "Cabin";
     src: url("../assets/Fonts/Cabin/Cabin-VariableFont.ttf");
 }
@@ -28,4 +32,6 @@ body{
 }
 
 @import 'header';
+@import 'title-container';
 @import 'home';
+@import 'aboutme';
