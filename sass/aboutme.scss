@@ -1,0 +1,22 @@
+.aboutme--container{
+  height: 90vh;
+
+  .aboutme-content{
+
+    img {
+      display: block;
+      margin: auto;
+      height: 200px;
+      margin-bottom: 0px;
+    }
+    .texte-aboutme{
+      color: $white;
+      width: 90%;
+      margin: auto;
+
+      h2{
+        margin-top: 0px;
+      }
+    }
+  }
+}
