@@ -31,6 +31,10 @@ body{
     color: $orange;
 }
 
+.underline{
+    text-decoration: underline;
+}
+
 @import 'header';
 @import 'title-container';
 @import 'home';

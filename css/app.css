@@ -24,6 +24,10 @@ body {
   color: #FFA767;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 .header-mobile {
   padding-top: 5px;
   padding-left: 10px;
