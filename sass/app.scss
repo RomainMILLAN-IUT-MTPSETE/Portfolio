@@ -23,5 +23,9 @@ body{
     font-family: "Cabin";
 }
 
+.colored{
+    color: $orange;
+}
+
 @import 'header';
 @import 'home';
