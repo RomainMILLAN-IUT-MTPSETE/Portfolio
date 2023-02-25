@@ -1,0 +1,17 @@
+//VAR
+$black: #1A191D;
+$orange: #FFA767;
+$white: #FFFFFF;
+$white-back: #E8E8EA;
+
+body{
+    background-color: $black;
+    margin: 0;
+    padding: 0;
+}
+
+.cacher{
+    display: none;
+}
+
+@import 'header';
