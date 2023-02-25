@@ -4,6 +4,11 @@ $orange: #FFA767;
 $white: #FFFFFF;
 $white-back: #E8E8EA;
 
+@font-face{
+    font-family: "Cabin";
+    src: url("../assets/Fonts/Cabin/Cabin-VariableFont.ttf");
+}
+
 body{
     background-color: $black;
     margin: 0;
@@ -14,4 +19,9 @@ body{
     display: none;
 }
 
+*{
+    font-family: "Cabin";
+}
+
 @import 'header';
+@import 'home';

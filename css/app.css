@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Cabin";
+  src: url("../assets/Fonts/Cabin/Cabin-VariableFont.ttf");
+}
 body {
   background-color: #1A191D;
   margin: 0;
@@ -6,6 +10,10 @@ body {
 
 .cacher {
   display: none;
+}
+
+* {
+  font-family: "Cabin";
 }
 
 .header-mobile {
@@ -19,6 +27,14 @@ body {
   .header-mobile {
     display: none;
   }
+}
+.home--container .title-home img:first-child {
+  height: 150px;
+  transform: rotate(-90deg);
+  float: right;
+}
+.home--container .title-home .title-txt-home p:first-child {
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=app.css.map */
