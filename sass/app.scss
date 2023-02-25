@@ -35,8 +35,14 @@ body{
     text-decoration: underline;
 }
 
+a{
+    text-decoration: none;
+    color: $white;
+}
+
 @import 'header';
 @import 'title-container';
 @import 'home';
 @import 'aboutme';
 @import 'skills';
+@import 'projects';
