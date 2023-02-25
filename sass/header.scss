@@ -3,6 +3,9 @@
     padding-left: 10px;
     padding-bottom: 5px;
     background-color: #1C1B1E;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 @media (min-width: 768px) {
