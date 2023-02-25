@@ -219,7 +219,8 @@ a {
 }
 
 .formations--container {
-  min-height: 90vh;
+  min-height: 25vh;
+  padding-bottom: 10vh;
 }
 .formations--container .formations-content {
   width: 90%;
@@ -247,6 +248,40 @@ a {
   font-weight: lighter;
 }
 .formations--container .formations-content .formations .formation h4 {
+  margin: 0 0 0 15px;
+  font-weight: lighter;
+}
+
+.works--container {
+  min-height: 25vh;
+  padding-bottom: 10vh;
+}
+.works--container .works-content {
+  width: 90%;
+  margin: auto;
+}
+.works--container .works-content .works {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  row-gap: 20px;
+  grid-auto-rows: minmax(40px, auto);
+  margin-top: 20px;
+}
+.works--container .works-content .works .work {
+  color: #FFFFFF;
+}
+.works--container .works-content .works .work p {
+  margin: 0;
+  font-size: 15px;
+}
+.works--container .works-content .works .work h2 {
+  margin: 0;
+  font-size: 20px;
+}
+.works--container .works-content .works .work h2 .italic {
+  font-weight: lighter;
+}
+.works--container .works-content .works .work h4 {
   margin: 0 0 0 15px;
   font-weight: lighter;
 }

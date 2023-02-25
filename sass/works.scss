@@ -1,0 +1,38 @@
+.works--container {
+  min-height: 25vh;
+  padding-bottom: 10vh;
+
+  .works-content{
+    width: 90%;
+    margin: auto;
+
+    .works{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      row-gap: 20px;
+      grid-auto-rows: minmax(40px, auto);
+      margin-top: 20px;
+
+      .work{
+        color: $white;
+
+        p{
+          margin: 0;
+          font-size: 15px;
+        }
+        h2{
+          margin: 0;
+          font-size: 20px;
+
+          .italic {
+            font-weight: lighter;
+          }
+        }
+        h4{
+          margin: 0 0 0 15px;
+          font-weight: lighter;
+        }
+      }
+    }
+  }
+}
