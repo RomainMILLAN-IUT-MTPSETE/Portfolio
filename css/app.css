@@ -12,12 +12,17 @@ body {
   padding: 0;
 }
 
-.cacher {
-  display: none;
-}
-
 * {
   font-family: "Cabin";
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.cacher {
+  display: none;
 }
 
 .colored {
@@ -32,9 +37,12 @@ body {
   font-family: "ICabin";
 }
 
-a {
-  text-decoration: none;
-  color: #FFFFFF;
+.colored-voteit {
+  color: #87b189;
+}
+
+.colored-adr {
+  color: #F3DEC4;
 }
 
 .header-mobile {

@@ -1,8 +1,4 @@
-//VAR
-$black: #1A191D;
-$orange: #FFA767;
-$white: #FFFFFF;
-$white-back: #E8E8EA;
+@import 'colors';
 
 @font-face{
     font-family: "ICabin";
@@ -19,31 +15,18 @@ body{
     padding: 0;
 }
 
-.cacher{
-    display: none;
-}
-
 *{
     font-family: "Cabin";
 }
 
-.colored{
-    color: $orange;
-}
 
-.underline{
-    text-decoration: underline;
-}
-
-.italic {
-    font-family: "ICabin";
-}
 
 a{
     text-decoration: none;
     color: $white;
 }
 
+@import 'utilsClass';
 @import 'header';
 @import 'title-container';
 @import 'home';
