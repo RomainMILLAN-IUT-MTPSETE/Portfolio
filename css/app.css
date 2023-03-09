@@ -64,6 +64,52 @@ a {
   z-index: 1;
 }
 
+.header-desktop {
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+}
+.header-desktop .header-left h2 {
+  color: #FFFFFF;
+  margin-left: 15px;
+}
+.header-desktop .header-right nav {
+  display: flex;
+  flex-direction: row;
+}
+.header-desktop .header-right nav li {
+  list-style: none;
+  margin-right: 10px;
+  font-size: 15px;
+  color: #FFFFFF;
+}
+.header-desktop .header-right nav .underline-effect {
+  display: inline-block;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.header-desktop .header-right nav .underline-effect::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #faceb5;
+  transition: width 0.3s;
+}
+.header-desktop .header-right nav .underline-effect:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+}
+.header-desktop .header-right nav .underline-effect:hover .number-nav {
+  color: #faceb5;
+}
+
 @media (min-width: 768px) {
   .header-mobile {
     display: none;

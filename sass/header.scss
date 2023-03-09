@@ -8,6 +8,62 @@
     z-index: 1;
 }
 
+.header-desktop{
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+
+    .header-left{
+
+        h2{
+            color: $white;
+            margin-left: 15px;
+        }
+    }
+
+    .header-right{
+
+        nav{
+            display: flex;
+            flex-direction: row;
+
+            li{
+                list-style: none;
+                margin-right: 10px;
+                font-size: 15px;
+                color: $white;
+            }
+            .underline-effect {
+                display: inline-block;
+                color: $white;
+                text-decoration: none;
+            }
+            .underline-effect::after {
+                content: '';
+                display: block;
+                width: 0;
+                height: 2px;
+                background: $orange-white;
+                transition: width .3s;
+            }
+            .underline-effect:hover::after {
+                width: 100%;
+                transition: width .3s;
+            }
+            .underline-effect:hover .number-nav{
+                color: $orange-white;
+            }
+        }
+    }
+
+}
+
 @media (min-width: 768px) {
     .header-mobile{
         display: none;
