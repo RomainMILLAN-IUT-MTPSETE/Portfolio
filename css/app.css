@@ -45,6 +45,15 @@ a {
   color: #F3DEC4;
 }
 
+.form-exp-current {
+  color: #FFA767;
+}
+
+.form-exp-pass {
+  color: #575757;
+  box-shadow: 10px 5px 5px black;
+}
+
 .header-mobile {
   padding-top: 5px;
   padding-left: 10px;
@@ -186,6 +195,7 @@ a {
   row-gap: 20px;
   grid-auto-rows: minmax(40px, auto);
   margin-top: 50px;
+  margin-bottom: 100px;
 }
 .projects--container .projects-content .projects .project-card {
   background-color: #29282C;
@@ -253,6 +263,7 @@ a {
 .formations--container .formations-content .formations .formation h2 {
   margin: 0;
   font-size: 20px;
+  font-weight: lighter;
 }
 .formations--container .formations-content .formations .formation h2 .italic {
   font-weight: lighter;
@@ -260,6 +271,9 @@ a {
 .formations--container .formations-content .formations .formation h4 {
   margin: 0 0 0 15px;
   font-weight: lighter;
+}
+.formations--container .formations-content .formations .formation-current h2 {
+  font-weight: bold;
 }
 
 .works--container {
@@ -287,6 +301,7 @@ a {
 .works--container .works-content .works .work h2 {
   margin: 0;
   font-size: 20px;
+  font-weight: lighter;
 }
 .works--container .works-content .works .work h2 .italic {
   font-weight: lighter;
@@ -294,6 +309,9 @@ a {
 .works--container .works-content .works .work h4 {
   margin: 0 0 0 15px;
   font-weight: lighter;
+}
+.works--container .works-content .works .work-current h2 {
+  font-weight: bold;
 }
 
 footer {

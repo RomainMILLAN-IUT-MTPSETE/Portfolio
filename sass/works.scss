@@ -23,6 +23,7 @@
         h2{
           margin: 0;
           font-size: 20px;
+          font-weight: lighter;
 
           .italic {
             font-weight: lighter;
@@ -31,6 +32,14 @@
         h4{
           margin: 0 0 0 15px;
           font-weight: lighter;
+        }
+      }
+
+
+      .work-current{
+
+        h2{
+          font-weight: bold;
         }
       }
     }
