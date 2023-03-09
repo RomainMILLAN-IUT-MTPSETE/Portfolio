@@ -158,16 +158,18 @@ a {
 .skills--container .skills-content .skills .s {
   display: flex;
   flex-direction: row;
-  align-items: end;
+  align-items: center;
   height: 40px;
 }
 .skills--container .skills-content .skills .s img {
-  height: 35px;
+  height: 25px;
+  margin-left: 5px;
 }
 .skills--container .skills-content .skills .s p {
   margin: 0;
   font-size: 20px;
   padding-left: 5px;
+  width: 100px;
 }
 
 .projects--container {
