@@ -1,9 +1,10 @@
 footer{
     width: 95%;
     margin: auto;
+    height:92.5vh;
 
     .contact--container{
-        height: 70vh;
+        height: 78.5vh;
 
         .contact-content{
             color: $white;
@@ -16,10 +17,12 @@ footer{
                 h3{
                     color: $white;
                     margin: 0;
+                    font-weight: normal;
                 }
                 h4{
                     color: $white;
                     margin: 0;
+                    font-weight: normal;
                 }
             }
             .sn-container{
@@ -53,6 +56,9 @@ footer{
 
         p{
             color: $white;
+        }
+        p:last-child{
+            display: none;
         }
     }
 }

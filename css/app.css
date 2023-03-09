@@ -289,9 +289,10 @@ a {
 footer {
   width: 95%;
   margin: auto;
+  height: 92.5vh;
 }
 footer .contact--container {
-  height: 70vh;
+  height: 78.5vh;
 }
 footer .contact--container .contact-content {
   color: #FFFFFF;
@@ -304,10 +305,12 @@ footer .contact--container .contact-content .title-contact-content {
 footer .contact--container .contact-content .title-contact-content h3 {
   color: #FFFFFF;
   margin: 0;
+  font-weight: normal;
 }
 footer .contact--container .contact-content .title-contact-content h4 {
   color: #FFFFFF;
   margin: 0;
+  font-weight: normal;
 }
 footer .contact--container .contact-content .sn-container {
   display: flex;
@@ -333,6 +336,9 @@ footer .contact--container .contact-content .sn-container .sn-li p {
 }
 footer .copyright--container p {
   color: #FFFFFF;
+}
+footer .copyright--container p:last-child {
+  display: none;
 }
 
 /*# sourceMappingURL=app.css.map */
