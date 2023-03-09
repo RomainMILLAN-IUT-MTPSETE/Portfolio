@@ -286,4 +286,53 @@ a {
   font-weight: lighter;
 }
 
+footer {
+  width: 95%;
+  margin: auto;
+}
+footer .contact--container {
+  height: 70vh;
+}
+footer .contact--container .contact-content {
+  color: #FFFFFF;
+  margin: 0;
+}
+footer .contact--container .contact-content .title-contact-content {
+  margin-left: 5%;
+  margin-top: 10%;
+}
+footer .contact--container .contact-content .title-contact-content h3 {
+  color: #FFFFFF;
+  margin: 0;
+}
+footer .contact--container .contact-content .title-contact-content h4 {
+  color: #FFFFFF;
+  margin: 0;
+}
+footer .contact--container .contact-content .sn-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-top: 2.5%;
+}
+footer .contact--container .contact-content .sn-container .sn-li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 15px;
+}
+footer .contact--container .contact-content .sn-container .sn-li img {
+  height: 25px;
+}
+footer .contact--container .contact-content .sn-container .sn-li p {
+  color: #FFFFFF;
+  margin: 0;
+  margin-left: 5px;
+  font-family: Arial;
+  font-weight: normal;
+}
+footer .copyright--container p {
+  color: #FFFFFF;
+}
+
 /*# sourceMappingURL=app.css.map */

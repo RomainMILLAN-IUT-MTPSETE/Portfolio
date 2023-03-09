@@ -1,0 +1,58 @@
+footer{
+    width: 95%;
+    margin: auto;
+
+    .contact--container{
+        height: 70vh;
+
+        .contact-content{
+            color: $white;
+            margin: 0;
+
+            .title-contact-content {
+                margin-left: 5%;
+                margin-top: 10%;
+
+                h3{
+                    color: $white;
+                    margin: 0;
+                }
+                h4{
+                    color: $white;
+                    margin: 0;
+                }
+            }
+            .sn-container{
+                display: flex;
+                flex-direction: column;
+                margin-left: 10%;
+                margin-top: 2.5%;
+
+                .sn-li{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    margin-top: 15px;
+
+                    img{
+                        height: 25px;
+                    }
+                    p{
+                        color: $white;
+                        margin: 0;
+                        margin-left: 5px;
+                        font-family: Arial;
+                        font-weight: normal;
+                    }
+                }
+            }
+        }
+    }
+
+    .copyright--container{
+
+        p{
+            color: $white;
+        }
+    }
+}
