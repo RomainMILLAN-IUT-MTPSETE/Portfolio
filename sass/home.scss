@@ -48,3 +48,34 @@
     height: 45px;
   }
 }
+
+@media (min-width: 768px){
+  .home--container{
+
+    .title-home{
+
+      img:first-child{
+        transform: rotate(-90deg);
+        height: 250px;
+        margin-top: 10%;
+      }
+      .title-txt-home{
+        width: 500px;
+        margin-top: -5%;
+
+        p:first-child{
+          font-size: 20px;
+        }
+        h1{
+          font-size: 70px;
+        }
+        p:last-child{
+          font-size: 20px;
+        }
+      }
+    }
+    img:last-child{
+      margin-top: 200px;
+    }
+  }
+}
