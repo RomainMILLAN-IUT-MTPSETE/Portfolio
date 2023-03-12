@@ -641,5 +641,8 @@ footer .copyright--container p:last-child {
     width: 25%;
   }
 }
+.voteit--container .projects-page--text h3:hover {
+  color: #87b189;
+}
 
 /*# sourceMappingURL=app.css.map */
