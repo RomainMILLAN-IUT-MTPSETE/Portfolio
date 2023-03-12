@@ -59,3 +59,25 @@
     }
   }
 }
+
+@media (min-width: 768px){
+  .projects--container{
+
+    .projects-content{
+
+      p:first-child{
+        font-size: 18px;
+        width: 45%;
+        margin-left: 5%;
+      }
+      .projects{
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 25px;
+
+        .project-card{
+          min-height: 250px;
+        }
+      }
+    }
+  }
+}

@@ -356,6 +356,20 @@ a {
   padding-bottom: 20px;
 }
 
+@media (min-width: 768px) {
+  .projects--container .projects-content p:first-child {
+    font-size: 18px;
+    width: 45%;
+    margin-left: 5%;
+  }
+  .projects--container .projects-content .projects {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 25px;
+  }
+  .projects--container .projects-content .projects .project-card {
+    min-height: 250px;
+  }
+}
 .formations--container {
   min-height: 25vh;
   padding-bottom: 10vh;
