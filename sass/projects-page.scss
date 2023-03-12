@@ -1,0 +1,65 @@
+.projects-page--container{
+  padding-top: 5%;
+
+  .projects-page--text{
+    color: $white;
+    margin-left: 5%;
+    margin-top: 0px;
+
+    h3{
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+    h3:hover{
+      color: $orange;
+    }
+    p{
+      margin-top: 0px;
+    }
+    .stack{
+      margin-bottom: 40px;
+
+      button{
+        background-color: #3E3D42;
+        border-radius: 5px;
+        color: $white;
+        border: 1px solid #3E3D42;
+        font-size: 15px;
+      }
+    }
+  }
+  .projects-page--photos{
+    width: 80%;
+    margin: auto;
+
+    img{
+      width: 100%;
+      margin: auto;
+      border-radius: 10px;
+      border: 1px solid $white;
+    }
+  }
+  .projects-page-btn{
+    background-color: #FFA767;
+    color: $white;
+    font-size: 17.5px;
+    border-radius: 5px;
+    border: 1px solid #FFA767;
+    margin-left: 5%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+  }
+}
+
+@media (min-width: 768px){
+  .projects-page--container{
+
+    .projects-page--photos{
+      width: 90%;
+
+      img{
+        width: 25%;
+      }
+    }
+  }
+}

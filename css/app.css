@@ -479,7 +479,6 @@ a {
 footer {
   width: 95%;
   margin: auto;
-  height: 92.5vh;
 }
 footer .contact--container {
   height: 78.5vh;
@@ -583,6 +582,63 @@ footer .copyright--container p:last-child {
   footer .copyright--container p:last-child {
     display: block;
     width: 45%;
+  }
+}
+.projects-page--container {
+  padding-top: 5%;
+}
+.projects-page--container .projects-page--text {
+  color: #FFFFFF;
+  margin-left: 5%;
+  margin-top: 0px;
+}
+.projects-page--container .projects-page--text h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.projects-page--container .projects-page--text h3:hover {
+  color: #FFA767;
+}
+.projects-page--container .projects-page--text p {
+  margin-top: 0px;
+}
+.projects-page--container .projects-page--text .stack {
+  margin-bottom: 40px;
+}
+.projects-page--container .projects-page--text .stack button {
+  background-color: #3E3D42;
+  border-radius: 5px;
+  color: #FFFFFF;
+  border: 1px solid #3E3D42;
+  font-size: 15px;
+}
+.projects-page--container .projects-page--photos {
+  width: 80%;
+  margin: auto;
+}
+.projects-page--container .projects-page--photos img {
+  width: 100%;
+  margin: auto;
+  border-radius: 10px;
+  border: 1px solid #FFFFFF;
+}
+.projects-page--container .projects-page-btn {
+  background-color: #FFA767;
+  color: #FFFFFF;
+  font-size: 17.5px;
+  border-radius: 5px;
+  border: 1px solid #FFA767;
+  margin-left: 5%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+@media (min-width: 768px) {
+  .projects-page--container .projects-page--photos {
+    width: 90%;
+  }
+  .projects-page--container .projects-page--photos img {
+    width: 25%;
   }
 }
 
