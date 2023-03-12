@@ -45,6 +45,10 @@ a {
   color: #F3DEC4;
 }
 
+.colored-waps {
+  color: #744FC6;
+}
+
 .form-exp-current {
   color: #FFA767;
 }
@@ -900,6 +904,10 @@ ol, li {
 
 .adr--container .projects-page--text h3:hover {
   color: #F3DEC4;
+}
+
+.adr--container .projects-page--text h3:hover {
+  color: #744FC6;
 }
 
 /*# sourceMappingURL=app.css.map */
