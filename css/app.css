@@ -517,4 +517,59 @@ footer .copyright--container p:last-child {
   display: none;
 }
 
+@media (min-width: 768px) {
+  footer .contact--container .contact-content {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin: auto;
+  }
+  footer .contact--container .contact-content .title-contact-content {
+    margin: 0;
+  }
+  footer .contact--container .contact-content .title-contact-content h3 {
+    font-size: 22.5px;
+  }
+  footer .contact--container .contact-content .title-contact-content h4 {
+    font-size: 18.5px;
+  }
+  footer .contact--container .contact-content .title-contact-content:hover #underline-contact-color {
+    text-decoration: underline;
+  }
+  footer .contact--container .contact-content .sn-container {
+    margin: 0;
+    margin-left: 5%;
+  }
+  footer .contact--container .contact-content .sn-container .sn-li .underline-effect {
+    display: inline-block;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  footer .contact--container .contact-content .sn-container .sn-li .underline-effect::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #faceb5;
+    transition: width 0.3s;
+  }
+  footer .contact--container .contact-content .sn-container .sn-li .underline-effect:hover::after {
+    width: 100%;
+    transition: width 0.3s;
+  }
+  footer .contact--container .contact-content .sn-container .sn-li .underline-effect:hover .number-nav {
+    color: #faceb5;
+  }
+  footer .contact--container .contact-content .sn-container .sn-li:hover img {
+    filter: invert(25%) sepia(18%) saturate(900%) hue-rotate(15deg) brightness(90%) contrast(60%);
+  }
+  footer .copyright--container p {
+    color: #FFFFFF;
+  }
+  footer .copyright--container p:last-child {
+    display: block;
+    width: 45%;
+  }
+}
+
 /*# sourceMappingURL=app.css.map */
