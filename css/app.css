@@ -645,4 +645,8 @@ footer .copyright--container p:last-child {
   color: #87b189;
 }
 
+.adr--container .projects-page--text h3:hover {
+  color: #F3DEC4;
+}
+
 /*# sourceMappingURL=app.css.map */
