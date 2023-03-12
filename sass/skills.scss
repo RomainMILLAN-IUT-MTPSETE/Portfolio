@@ -37,3 +37,35 @@
     }
   }
 }
+
+@media (min-width: 768px){
+  .skills--container{
+
+    .skills-content{
+
+      p:first-child{
+        font-size: 18px;
+        width: 45%;
+        margin-left: 5%;
+      }
+      .skills{
+        gap: 10px;
+        column-gap: 10px;
+        margin-top: 2.5%;
+        margin-left: 5%;
+
+        .s{
+          width: 150px;
+
+          img{
+            height: 35px;
+          }
+          p{
+            font-size: 22px;
+            width: 100px;
+          }
+        }
+      }
+    }
+  }
+}

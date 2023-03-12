@@ -20,3 +20,28 @@
     }
   }
 }
+
+@media (min-width: 768px){
+  .aboutme--container{
+
+    .aboutme-content{
+      display: flex;
+      flex-direction: row;
+      width: 85%;
+      margin: auto;
+
+      img{
+        height: 400px;
+      }
+      .texte-aboutme{
+
+        h2{
+          font-size: 35px;
+        }
+        p{
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}

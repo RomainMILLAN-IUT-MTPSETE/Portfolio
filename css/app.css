@@ -224,6 +224,23 @@ a {
   margin-top: 0px;
 }
 
+@media (min-width: 768px) {
+  .aboutme--container .aboutme-content {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    margin: auto;
+  }
+  .aboutme--container .aboutme-content img {
+    height: 400px;
+  }
+  .aboutme--container .aboutme-content .texte-aboutme h2 {
+    font-size: 35px;
+  }
+  .aboutme--container .aboutme-content .texte-aboutme p {
+    font-size: 20px;
+  }
+}
 .skills--container {
   height: 90vh;
 }
@@ -259,6 +276,29 @@ a {
   width: 100px;
 }
 
+@media (min-width: 768px) {
+  .skills--container .skills-content p:first-child {
+    font-size: 18px;
+    width: 45%;
+    margin-left: 5%;
+  }
+  .skills--container .skills-content .skills {
+    gap: 10px;
+    column-gap: 10px;
+    margin-top: 2.5%;
+    margin-left: 5%;
+  }
+  .skills--container .skills-content .skills .s {
+    width: 150px;
+  }
+  .skills--container .skills-content .skills .s img {
+    height: 35px;
+  }
+  .skills--container .skills-content .skills .s p {
+    font-size: 22px;
+    width: 100px;
+  }
+}
 .projects--container {
   min-height: 90vh;
 }
