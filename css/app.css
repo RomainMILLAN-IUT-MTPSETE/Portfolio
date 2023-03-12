@@ -51,7 +51,6 @@ a {
 
 .form-exp-pass {
   color: #575757;
-  box-shadow: 10px 5px 5px black;
 }
 
 .header-mobile {
@@ -408,6 +407,18 @@ a {
   font-weight: bold;
 }
 
+@media (min-width: 768px) {
+  .desktop-row {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    height: 95vh;
+  }
+  .formations--container {
+    width: 50%;
+  }
+}
 .works--container {
   min-height: 25vh;
   padding-bottom: 10vh;
@@ -446,6 +457,11 @@ a {
   font-weight: bold;
 }
 
+@media (min-width: 768px) {
+  .works--container {
+    width: 50%;
+  }
+}
 footer {
   width: 95%;
   margin: auto;

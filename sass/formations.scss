@@ -45,3 +45,17 @@
     }
   }
 }
+
+@media (min-width: 768px){
+  .desktop-row{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    height: 95vh;
+  }
+
+  .formations--container{
+    width: 50%;
+  }
+}
