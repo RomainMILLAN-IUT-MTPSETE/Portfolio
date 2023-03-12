@@ -62,6 +62,9 @@ a {
   width: 100%;
   z-index: 1;
 }
+.header-mobile h2 {
+  color: #FFFFFF;
+}
 
 .header-desktop {
   position: fixed;
@@ -109,7 +112,18 @@ a {
   color: #faceb5;
 }
 
+@media (max-width: 768px) {
+  .header-desktop {
+    display: none;
+  }
+  .header-mobile {
+    display: block;
+  }
+}
 @media (min-width: 768px) {
+  .header-desktop {
+    display: flex;
+  }
   .header-mobile {
     display: none;
   }
